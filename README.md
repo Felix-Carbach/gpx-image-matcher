@@ -20,9 +20,11 @@ project/
 
 # How to run
 1. Install dependencies:
+   
    pip install gpxpy exifread pandas
    
-2. Run the script:
+3. Run the script:
+   
    python match_images_to_gpx.py
 
 # Output
