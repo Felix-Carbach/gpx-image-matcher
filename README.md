@@ -6,10 +6,14 @@ The result is a CSV file containing image names and their closest spatial match 
 
 project/
 ├── match_images_to_gpx.py
+
 ├── data/
 │ ├── images/ # JPG files with EXIF timestamps
+
 │ └── tracks/ # .gpx file containing trkpt or wpt entries
+
 ├── output/
+
 │ └── matched_images.csv # Output CSV
 
 # How to run
