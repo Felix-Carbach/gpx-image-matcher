@@ -1,4 +1,4 @@
-# GPX Image Matcher
+## GPX Image Matcher
 This Python script matches geotagged images (with EXIF timestamps) to GPS trackpoints and waypoints from a `.gpx` file.  
 The result is a CSV file containing image names and their closest spatial match from the track by assigning each image to a trackpoint via their timestamps. It also includes the trackpoint's coordinates.
 
