@@ -6,17 +6,17 @@ The result is a CSV file containing image names and their closest spatial match 
 
 project/
 
-├── match_images_to_gpx.py
-
-├── data/
+├── 01_data/
 
 │ ├── images/ # JPG files with EXIF timestamps
 
 │ └── tracks/ # .gpx file containing trkpt or wpt entries
 
-├── output/
+├── 02_output/
 
 │ └── matched_images.csv # Output CSV
+
+├── 03_match_images_to_gpx.py
 
 ## How to run
 1. Install dependencies:
@@ -35,5 +35,3 @@ The script outputs a CSV with:
 - latitude & longitude
 - time difference in seconds
 
-# Author
-Felix Carbach – as part of an internship at the ZFL in Bonn
