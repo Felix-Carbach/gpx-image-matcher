@@ -4,24 +4,22 @@ The result is a CSV file containing image names and their closest spatial match 
 
 ## Expected folder structure
 
-project/
+├── `01_data`/
 
-├── 01_data/
+│ ├── images/ = JPG files with EXIF timestamps
 
-│ ├── images/ # JPG files with EXIF timestamps
+│ └── tracks/ = .gpx file containing trkpt or wpt entries
 
-│ └── tracks/ # .gpx file containing trkpt or wpt entries
+├── `02_output`/
 
-├── 02_output/
+│ └── matched_images.csv = Output CSV
 
-│ └── matched_images.csv # Output CSV
-
-├── 03_match_images_to_gpx.py
+├── `03_match_images_to_gpx.py`
 
 ## How to run
 1. Install dependencies:
    
-   pip install gpxpy exifread pandas
+   `gpxpy`, `exifread` & `pandas`
    
 3. Run the script:
    
